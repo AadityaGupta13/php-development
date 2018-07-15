@@ -1,0 +1,61 @@
+body{
+	font-family: "Microsoft Yahei Light";
+}
+a{
+	text-decoration: none;
+	color:blue;
+	margin:10px;
+}
+a:focus{
+	color:navy;
+}
+.container{
+	padding:2%;
+	width: 25%;
+	background-color:#ddd; 
+}
+table{
+	width: auto;
+}
+input, textarea{
+	font-family: "Microsoft Yahei Light";
+	padding: 5px 30px;
+	margin: 5px;
+	outline: none;
+	border-radius: 5px;
+	background-color: white;
+}
+input[type='submit']{
+	background-color: white;
+	padding: 10px 30px;
+	font-weight: bold;
+	border-width: 2px;
+	border-radius: 5px;
+}
+.message{
+	padding:10px;
+	width: 90%;
+	border-radius: 5px;
+}
+.success{
+	background-color: lightgreen;
+	color: green;
+	border: 1px solid green;
+}
+.warning{
+	background-color: pink;
+	color: red;
+	border: 1px solid red;
+}
+#datatb{
+	border-collapse: collapse;
+	padding: 5px;
+}
+#datatb th,#datatb td{
+	padding:10px;
+	text-align: center;
+	border:1px solid black;
+}
+#datatb tr:nth-child(odd){
+	background-color: #eeeeee;
+}
