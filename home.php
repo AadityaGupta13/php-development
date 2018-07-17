@@ -21,7 +21,7 @@
 	</div>
 	<div class="main">
 		<?php 
-			require("connect.php");
+			require "connect.php";
 			$records = mysqli_query($con,'SELECT * FROM data_tb');
 			?><table id="datatb">
 			<?php

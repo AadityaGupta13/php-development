@@ -19,7 +19,7 @@ if(isset($_SESSION['name'])) {
 					$name = $_POST['uname'];
 					$pass = $_POST['pass'];
 
-					require("connect.php");
+					require "connect.php" ;
 					$records = mysqli_query($con,"SELECT * FROM user_tb WHERE username='$name' AND password='$pass'");
 
 					if(mysqli_num_rows($records)==1){

@@ -7,7 +7,7 @@ a{
 	margin:10px;
 }
 a:focus{
-	color:navy;
+	color:orange;
 }
 .container{
 	padding:2%;
@@ -17,7 +17,7 @@ a:focus{
 table{
 	width: auto;
 }
-input, textarea{
+input, textarea, select{
 	font-family: "Microsoft Yahei Light";
 	padding: 5px 30px;
 	margin: 5px;
@@ -31,6 +31,10 @@ input[type='submit']{
 	font-weight: bold;
 	border-width: 2px;
 	border-radius: 5px;
+}
+input[type='submit']:hover{
+	background-color: blue;
+	color:white;
 }
 .message{
 	padding:10px;
